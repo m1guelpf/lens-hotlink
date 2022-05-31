@@ -12,7 +12,7 @@ const IndexPage = () => {
 				</p>
 			</div>
 			<div className="space-y-8">
-				<div className="flex items-center justify-around">
+				<div className="flex flex-col md:flex-row items-center md:justify-around space-y-8 md:space-y-0">
 					<APILinkView label="Link to a Lens profile">
 						https://open.withlens.app/profile/{'{handle}'}
 					</APILinkView>
