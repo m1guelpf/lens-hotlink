@@ -35,6 +35,17 @@ const Layout = ({ children }) => {
 				</div>
 				{children}
 			</div>
+			<p className="md:absolute bottom-4 md:bottom-6 inset-x-0 text-center text-black/90 pt-4 pb-6 md:py-0">
+				Built by{' '}
+				<a
+					className="font-semibold text-black"
+					href="https://open.withlens.app/profile/m1guelpf.lens"
+					target="_blank"
+					rel="noreferrer"
+				>
+					@m1guelpf.lens
+				</a>
+			</p>
 		</>
 	)
 }
